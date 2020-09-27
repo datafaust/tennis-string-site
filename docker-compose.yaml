@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  stringsite:
+    image: stringsite
+    restart: unless-stopped
+    container_name: stringsite
+    build: ./
+    ports:
+      - 3009:3009
+
+      
+networks:
+  default:
+    external:
+      name: my-net
