@@ -1,7 +1,10 @@
 import React, {Component} from 'react'
-import {Form, Row, Col, Button} from 'react-bootstrap'
-import { faCog } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {Form, 
+  Row, 
+  //Col,
+   Button} from 'react-bootstrap'
+//import { faCog } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBarC from './navbar';
 import * as emailjs from 'emailjs-com';
 import classes from './contact.module.css'

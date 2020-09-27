@@ -1,36 +1,16 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  withRouter
-} from "react-router-dom";
-import {
-  Jumbotron,
-  Button,
-  Form,
-  Card,
   Row,
   Col,
-  Image,
   Carousel,
-  Container
 } from "react-bootstrap";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import classes from "./home.module.css";
-import arrow from "../assets/arrow.png";
-import rpic from "../assets/rpic.png";
-import shiny from "../assets/shiny.png";
-import sql from "../assets/sql.png";
-import js from "../assets/js.png";
-import ipad from "../assets/ipad.png";
-import iphone from "../assets/iphone.png";
-import logo from "../assets/logo.png";
-import bulb from "../assets/bulb.png";
+//import { faCog } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import classes from "./home.module.css";
 import NavBarC from "./navbar";
 import Cards from './smcomp/projectCard';
 import Contact from './contactUs';
+import classes from './home.module.css'
 
 
 import tournaBigHitter from "../assets/tournaBigHitter.jpeg";

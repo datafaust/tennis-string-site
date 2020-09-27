@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
-import {Navbar, Nav, NavItem, NavDropdown} from 'react-bootstrap'
+import {Navbar, Nav,
+   //NavItem,
+    //NavDropdown
+  } from 'react-bootstrap'
 // import {Link} from 'react-router-dom'
 import logo from '../assets/tennis-ball.png';
 import classes from './navbar.module.css';

@@ -1,18 +1,24 @@
 import React, { Component } from 'react'
-import { Col, Row, Image, Button, Card } from 'react-bootstrap'
-import { faCog } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { 
+    //Col,
+     Row,
+      //Image,
+       //Button,
+        //Card
+     } from 'react-bootstrap'
+//import { faCog } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBarC from './navbar';
-import shiny from "../assets/shiny.png";
-import metal from "../assets/metal.png";
+//import shiny from "../assets/shiny.png";
+//import metal from "../assets/metal.png";
 import classes from "./smcomp/projectCard.module.css"
 import Cards from './smcomp/projectCard';
 import taxi from "../assets/taxi.png";
 import iss from "../assets/iss.png";
 import nuclear from "../assets/nuclear.png";
-import datahub from "../assets/datahub.png";
-import decoder from "../assets/decoder.jpg";
-import meetup from "../assets/meetup.png";
+//import datahub from "../assets/datahub.png";
+//import decoder from "../assets/decoder.jpg";
+//import meetup from "../assets/meetup.png";
 
 class Pricing extends Component {
 

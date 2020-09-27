@@ -1,5 +1,10 @@
 import React, {Component} from 'react'
-import {Col, Row, Image, Button} from 'react-bootstrap'
+import {
+    //Col,
+     Row,
+      Image,
+       //Button
+    } from 'react-bootstrap'
 import { faCog } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBarC from './navbar';
