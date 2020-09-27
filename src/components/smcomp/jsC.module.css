@@ -1,0 +1,51 @@
+.boxShadow  {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    /**width: '18rem'*/
+}
+.cards {
+  width: 30%;
+    margin: 20px auto;
+    
+    
+    background: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-transition:  box-shadow .2s ease-out;
+       box-shadow: .8px .9px 3px grey;
+       display:block;
+  }
+
+
+
+
+  .cards:hover{ 
+       box-shadow: 20px 8px 20px grey;
+      -webkit-transition:  box-shadow .6s ease-in;
+    }
+
+/**Body text*/
+.bodyText {
+    text-align: center;
+}
+
+.cards:nth-of-type(6n-5){
+  
+ opacity: .5;
+}
+
+.cards:nth-of-type(6n-5):hover{ 
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+.image {
+  width:35%
+}

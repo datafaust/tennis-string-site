@@ -1,0 +1,25 @@
+.boxShadow  {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    /**width: '18rem'*/
+}
+.card {
+    margin:auto;
+    height: 95%;
+    width: 80%;
+    background: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-transition:  box-shadow .2s ease-out;
+       box-shadow: .8px .9px 3px grey;
+  
+  }
+  .card:hover{ 
+       box-shadow: 20px 8px 20px grey;
+      -webkit-transition:  box-shadow .6s ease-in;
+    }
+
+/**Body text*/
+.bodyText {
+    text-align: center;
+}

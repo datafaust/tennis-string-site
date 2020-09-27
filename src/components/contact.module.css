@@ -1,0 +1,79 @@
+.AppLogo1 {
+    animation: App-logo-spin1 infinite 12s linear;
+    position: relative;
+    color: rgb(148, 195, 161);
+    opacity: 0.5;
+   width: 50%;
+   margin: auto;
+   right:2px
+    
+  }
+  
+  
+  
+  @keyframes App-logo-spin1 {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+  
+  
+  .AppLogo2 {
+    animation: App-logo-spin2 infinite 12s linear;
+    position: relative;
+  
+    color: rgb(148, 195, 161);
+    opacity: 0.5;
+    width: 50%;
+    margin: auto;
+    left:10px;
+    bottom:5px
+  }
+  
+  
+  
+  @keyframes App-logo-spin2 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  
+  
+  .AppLogo3 {
+    animation: App-logo-spin3 infinite 12s linear;
+    position: relative;
+    right: 16px;
+    color: rgb(148, 195, 161);
+    opacity: 0.5
+  }
+  
+  
+  
+  @keyframes App-logo-spin3 {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+  
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titles {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.form {
+    width: 40%;
+    margin: 5% 30% ;
+}
+
+@media only screen and (max-width: 650px) {
+    .form {
+        width: 80%;
+        margin: 5% 10% ;
+    }
+
+}

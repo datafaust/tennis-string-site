@@ -1,0 +1,48 @@
+  .title {
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .icon {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .priceText {
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+
+  .writing {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .priceBlock {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  /**Body text*/
+  .bodyText {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
