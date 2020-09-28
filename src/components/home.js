@@ -30,7 +30,7 @@ class Jumbo extends Component {
       <div>
         <NavBarC />
         {/** IMAGE ROW */}
-          <Row style={{ marginTop: "70px" }}>
+          <Row className={classes.carousel}>
             <Col>
               <Carousel interval={3000}>
                 <Carousel.Item>
