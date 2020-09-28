@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import {
   Row,
   Col,
-  Carousel,
-  Container
+  Carousel
 } from "react-bootstrap";
 //import { faCog } from "@fortawesome/free-solid-svg-icons";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,7 +25,6 @@ import string3 from "../assets/string3.png"
 // import {Link} from 'react-router-dom'
 
 import ReactMapGL from 'react-map-gl';
-import Popup from 'react-map-gl';
 
 class Jumbo extends Component {
 
