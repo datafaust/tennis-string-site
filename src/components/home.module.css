@@ -1,5 +1,6 @@
   .carousel {
     margin-top: 70px;
+    margin: auto;
   }
   
   .title {
@@ -48,6 +49,13 @@
   align-items: center;
 }
 
+.map {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width:'50%';
+}
+
 
 
 @media only screen and (max-width: 650px) {
@@ -71,5 +79,12 @@
 
   .carousel {
     margin-top: 110px;
+  }
+
+  .map {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
   }
 }

@@ -3,6 +3,7 @@ import {
   Row,
   Col,
   Carousel,
+  Container
 } from "react-bootstrap";
 //import { faCog } from "@fortawesome/free-solid-svg-icons";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,7 +25,22 @@ import string2 from "../assets/string2.png"
 import string3 from "../assets/string3.png"
 // import {Link} from 'react-router-dom'
 
+import ReactMapGL from 'react-map-gl';
+import Popup from 'react-map-gl';
+
 class Jumbo extends Component {
+
+  state = {
+    viewport: {
+      width: 400,
+      height: 400,
+      latitude: 40.7450,
+      longitude: -73.8643,
+      zoom: 12
+    }
+  };
+
+  
   render() {
     return (
       <div>
@@ -144,6 +160,31 @@ class Jumbo extends Component {
               title={"Tourna Grit Silver"}
               text={'For more defensive players or "pushers", this string offers a good balance of power and control that will improve your ability to respond to lots of spin and power.'}
             />
+          </Row>
+
+          <Row className="justify-content-md-center">
+            <Col md="auto" className={classes.title} id = "contact">My Location</Col>
+          </Row>
+
+          <Row className="justify-content-md-center">
+            <Col md="auto" xs lg="11">
+              <p className = {classes.writing}>
+                I am located near Flushing Meadows Corona Park and generally service a 10 mile area. I encourage you to contact me if you live farther away to see if I can still provide service.
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="justify-content-md-center">
+            <Col md="auto" className={classes.map}>
+            <ReactMapGL
+              
+              mapboxApiAccessToken = 'pk.eyJ1IjoiZmF1c2x5Zm94MTEwIiwiYSI6ImNrMW94eTZ0ajBxNnAzbXMxMDQwcG9rbGUifQ.mNzYj-mjqarze1Cht4V9hg'
+              {...this.state.viewport}
+              onViewportChange={(viewport) => this.setState({viewport})}
+            >
+               
+            </ReactMapGL>
+            </Col>
           </Row>
           
           <Row className="justify-content-md-center">
